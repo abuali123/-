@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #E1EEE7;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav{
+    display: flex;
+}
+.menu{
+    margin: 40px;
+}
+
+.avatar img{
+    width: 58px;
+    height: 58px;
+}
+main{
+    background-color: #B5FBEE;
+     
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.kartinka{
+    width: 231px;
+    height:294px ;
+}
+.kartinka img{
+    width:100% ;
+}
+.cat{
+    display: flex ;
+    justify-content: space-between;
+    
+}
+.text{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+.name{
+    align-items: center;
+}
+#block{
+    position: relative;
+    top: 50px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.block{
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+.tet{
+    color: white;
+    width: 45%;
+    background-color: black;
+}
+.flexx img{
+    width: 100%;
+    
+}
+.flexx{
+    height: 200px;
+    width: 45%;
+    overflow: hidden;
+}
+@media(max-width:768px){
+    .nav{
+        display:none;
+    }
+    .cat{
+        flex-direction: column;
+        align-items: center;
+    }
+    #block{
+        top: 0px;
+    }
+}
+    
+
+    
+
+    
+
+
